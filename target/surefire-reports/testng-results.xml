@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43162" started-at="2020-03-02T17:39:21Z" finished-at="2020-03-02T17:40:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="43162" started-at="2020-03-02T17:39:21Z" finished-at="2020-03-02T17:40:04Z">
+      <class name="etsy.runner.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="setUpClass" is-config="true" duration-ms="203" started-at="2020-03-02T12:39:21Z" finished-at="2020-03-02T12:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="13387" started-at="2020-03-02T12:39:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-02T12:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a user, I want to search for a specific item]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="12122" started-at="2020-03-02T12:39:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-02T12:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a user I want to see iphone cases which come with free shipping and under 25 dollars.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="feature" duration-ms="16976" started-at="2020-03-02T12:39:47Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-02T12:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a user I want navigate to Help Center Page.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="writeExtentReport" is-config="true" duration-ms="55" started-at="2020-03-02T12:40:03Z" finished-at="2020-03-02T12:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:etsy.runner.RunnerClass@6b143ee9]" name="tearDownClass" is-config="true" duration-ms="335" started-at="2020-03-02T12:40:04Z" finished-at="2020-03-02T12:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- etsy.runner.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
